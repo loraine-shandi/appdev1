@@ -5,7 +5,7 @@
 > Today, many people rely on automated technologies to save time and make their lives easier. One of the best examples of this is the Internet of Things (IoT). IoT consists of a network of devices that are connected to each other and can share information. These devices can be anything from simple household items, like smart thermostats, to complex machines used in industries. IoT devices are equipped with sensors and software that allow them to collect and send data without needing much human involvement. For example, a heart monitor can track a person's health and send updates to doctors automatically. Similarly, a car can have sensors that alert the driver if the tire pressure is low. By using IoT, organizations can work more efficiently and provide better services to their customers. They can make smarter decisions based on the data collected from these devices. This means that businesses can improve their operations, reduce costs, and enhance the overall value they provide.
 > In summary, IoT helps automate everyday tasks and decision-making processes, allowing people and organizations to focus on more important activities while technology takes care of routine monitoring and data sharing.
 
-Source: Gillis, A. S., & Yasar, K. (2025, July 21). "Internet of Things (IoT)”. IoT Agenda. TechTarget. Retrieved from [https://www.techtarget.com/iotagenda/definition/Internet-of-Things-IoT]
+Source: Gillis, A. S., & Yasar, K. (2025, July 21). "Internet of Things (IoT)”. IoT Agenda. TechTarget. Retrieved from https://www.techtarget.com/iotagenda/definition/Internet-of-Things-IoT
 
 ## Usage:
 
@@ -27,7 +27,7 @@ Source: Gillis, A. S., & Yasar, K. (2025, July 21). "Internet of Things (IoT)”
 
 >>Inventory tracking – RFID tags help track materials and products in real time, reducing loss and making supply management easier.
 
-Source: Pratt, M. K. (2025, July 24). “Top 10 examples and use cases of IoT in manufacturing.” IoT Agenda. TechTarget. Retrieved from [https://www.techtarget.com/iotagenda/tip/Examples-and-use-cases-of-IoT-in-manufacturing ]
+Source: Pratt, M. K. (2025, July 24). “Top 10 examples and use cases of IoT in manufacturing.” IoT Agenda. TechTarget. Retrieved from https://www.techtarget.com/iotagenda/tip/Examples-and-use-cases-of-IoT-in-manufacturing
 
 
 ## Examples:
@@ -44,4 +44,4 @@ Source: Pratt, M. K. (2025, July 24). “Top 10 examples and use cases of IoT in
 
 >> The network expansion lets them add more smart devices without slowing down the campus WiFi.
 
-Source: Arizona State University. “ASU  explores new ways to scale smart campus initiatives.” ASU Enterprise Technology. Retrieved from [https://tech.asu.edu/features/amazon-sidewalk-pilot?utm_source] 
+Source: Arizona State University. “ASU  explores new ways to scale smart campus initiatives.” ASU Enterprise Technology. Retrieved from https://tech.asu.edu/features/amazon-sidewalk-pilot?utm_source
