@@ -1,7 +1,9 @@
 # About Me
 
 **Name:** Shandi Loraine Belen
+
 **Course/Year:** BS Information Technology 3rd Year  
+
 **Fun Fact:** I laugh a lot
 
 ---
