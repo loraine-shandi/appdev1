@@ -1,0 +1,20 @@
+<body>
+    <button id="colorBtn">Switch Background</button>
+    <p id="message"></p>
+</body>
+
+<script>
+    const pageBody = document.body;
+    const colorButton = document.getElementById("colorBtn");
+
+    colorButton.addEventListener("click", () => {
+        pageBody.style.backgroundColor = "white";
+    });
+
+    const favColor = prompt("Enter your favorite color:", "Blue");
+    pageBody.style.backgroundColor = favColor;
+
+    setTimeout(() => {
+        document.querySelector("#message").textContent = "This message appears after 2 seconds"
+    }, 2000);
+</script>
