@@ -3,21 +3,21 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-function AboutPage() {
+function Profile() {
   return (
-    <>
-      <h1>About</h1>
-      <p>Hello there.<br />How do you do?</p>
-    </>
+    <img
+      className="avatar"
+      src="https://i.imgur.com/yXOvdOSs.jpg"
+      alt="Lin Lanying"
+    />
   );
 }
 
 export default function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div>
-      <AboutPage />
+      <h1>Adding styles</h1>
+      <Profile />
     </div>
   );
 }
