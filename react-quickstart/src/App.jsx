@@ -3,21 +3,21 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-function MyButton() {
+function AboutPage() {
   return (
-    <button>I'm a button</button>
+    <>
+      <h1>About</h1>
+      <p>Hello there.<br />How do you do?</p>
+    </>
   );
 }
 
-function App() {
-  const [count, setCount] = useState(0)
+export default function App() {
+  const [count, setCount] = useState(0);
 
   return (
     <div>
-      <h1>Welcome</h1>
-      <MyButton />
+      <AboutPage />
     </div>
-  )
+  );
 }
-
-export default App
