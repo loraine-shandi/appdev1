@@ -3,25 +3,28 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-const user = {
-  name: 'Hedy Lamarr',
-  imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
-  imageSize: 90,
-};
+function AdminPanel() {
+  return <h2>Welcome to the Admin Panel</h2>;
+}
 
-export default function Profile() {
+function LoginForm() {
+  return <h2>Please log in to continue</h2>;
+}
+
+export default function App() {
+  const isLoggedIn = false; 
+  let content;
+
+  if (isLoggedIn) {
+    content = <AdminPanel />;
+  } else {
+    content = <LoginForm />;
+  }
+
   return (
-    <>
-      <h1>{user.name}</h1>
-      <img
-        className="avatar"
-        src={user.imageUrl}
-        alt={'Photo of ' + user.name}
-        style={{
-          width: user.imageSize,
-          height: user.imageSize
-        }}
-      />
-    </>
+    <div>
+      <h1>Conditional Rendering Example</h1>
+      {content}
+    </div>
   );
 }
