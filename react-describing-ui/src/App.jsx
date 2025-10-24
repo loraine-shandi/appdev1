@@ -3,18 +3,19 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Gallery from './components/Gallery';
 import TodoList from './components/ToDoList';
+import Profile from './components/Profile';
 // import './App.css'
 
-function Profile() {
-  return (
-    <>
-        <img
-        src="https://i.imgur.com/MK3eW3As.jpg"
-        alt="Katherine Johnson"
-      />
-    </>
-  );
-}
+// function Profile() {
+//   return (
+//     <>
+//         <img
+//         src="https://i.imgur.com/MK3eW3As.jpg"
+//         alt="Katherine Johnson"
+//       />
+//     </>
+//   );
+// }
 
 
 export default function App() {
@@ -30,6 +31,7 @@ export default function App() {
 
       <Gallery/>
       <TodoList/>
+      <Profile/>
     </>
   );
 
