@@ -5,6 +5,7 @@ import Gallery from './components/Gallery';
 import TodoList from './components/ToDoList';
 import Profile from './components/Profile';
 import PackingList from './components/PackingList';
+import List from './components/List';
 // import './App.css'
 
 // function Profile() {
@@ -34,6 +35,7 @@ export default function App() {
       <TodoList/>
       <Profile/>
       <PackingList/>
+      <List/>
     </>
   );
 
