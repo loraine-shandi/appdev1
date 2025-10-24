@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import Gallery from './components/Gallery';
 import TodoList from './components/ToDoList';
 import Profile from './components/Profile';
+import PackingList from './components/PackingList';
 // import './App.css'
 
 // function Profile() {
@@ -32,6 +33,7 @@ export default function App() {
       <Gallery/>
       <TodoList/>
       <Profile/>
+      <PackingList/>
     </>
   );
 
