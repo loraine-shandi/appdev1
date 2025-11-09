@@ -6,6 +6,8 @@ import TodoList from './components/ToDoList';
 import Profile from './components/Profile';
 import PackingList from './components/PackingList';
 import List from './components/List';
+import Impure from './components/Impure';
+import Pure from './components/Pure';
 // import './App.css'
 
 // function Profile() {
@@ -36,6 +38,9 @@ export default function App() {
       <Profile/>
       <PackingList/>
       <List/>
+
+      <Impure/>
+      <Pure/>
     </>
   );
 
