@@ -8,6 +8,7 @@ import PackingList from './components/PackingList';
 import List from './components/List';
 import Impure from './components/Impure';
 import Pure from './components/Pure';
+import RootComponent from './components/RootComponent';
 // import './App.css'
 
 // function Profile() {
@@ -41,6 +42,9 @@ export default function App() {
 
       <Impure/>
       <Pure/>
+
+
+      <RootComponent/>
     </>
   );
 
