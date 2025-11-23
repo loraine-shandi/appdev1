@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import UsersFetch from './UsersFetch'
 import PostFetchAsync from './PostsFetchAsync'
+import TodosFetchAxios from './TodosFetchAxios'
 
 function App() {
   
@@ -9,7 +10,8 @@ function App() {
   return (
     <>
       {/* <UsersFetch/> */}
-      <PostFetchAsync/>
+      {/* <PostFetchAsync/> */}
+      <TodosFetchAxios/>
     </>
   )
 }
